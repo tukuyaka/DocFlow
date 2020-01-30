@@ -7,14 +7,7 @@ using System.Windows.Forms;
 
 namespace DocFlow.View
 {
-    public interface IMessageService
-    {
-        void ShowMesage(string message);
-        void ShowExclamation(string message);
-        void ShowError(string message);
-    }
-
-    public class MessageService : IMessageService
+    public class MessageService
     {
         public void ShowMesage(string message)
         {
